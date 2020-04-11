@@ -1,0 +1,23 @@
+#game-screen {
+  border: 2px solid black;
+}
+
+img {
+  display: none;
+}
+.menubox {
+  display: none;
+}
+#menu {
+  border: 2px solid black;
+  background: wheat;
+  position: relative;
+}
+
+#menu .menubox {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
